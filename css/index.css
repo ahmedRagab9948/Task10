@@ -1,0 +1,107 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.frist-form {
+  margin-top: 70px;
+}
+
+.frist-form .container {
+  width: 60%;
+  padding: 25px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
+  transition: all 0.3s ease-in-out;
+  border-radius: 15px;
+  z-index: 1;
+}
+
+/* ################################################### */
+
+.second-form {
+  margin-top: 70px;
+  display: none;
+}
+
+.second-form .container {
+  width: 60%;
+  padding: 25px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
+  transition: all 0.3s ease-in-out;
+  border-radius: 15px;
+  z-index: 1;
+}
+
+/* #################################################### */
+.third-form {
+  margin-top: 150px;
+  display: none;
+}
+
+.third-form .container {
+  width: 60%;
+  padding: 25px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
+  transition: all 0.3s ease-in-out;
+  border-radius: 15px;
+  z-index: 1;
+}
+.third-form .container textarea {
+  width: 50%;
+}
+
+/* ################################################### */
+
+.modal-dialog {
+  margin-top: 200px;
+}
+
+
+
+/* ################################################## */
+
+
+@media screen and (max-width: 576px) {
+  .frist-form {
+    margin-top: 0;
+  }
+  .frist-form .container {
+    width: 100%;
+  }
+  .second-form {
+    margin-top: 0;
+  }
+  .second-form .container {
+    width: 100%;
+  }
+  .third-form {
+    margin-top: 0;
+  }
+  .third-form .container {
+    width: 100%;
+  }
+  .third-form .container h2 {
+    margin-top: 100px;
+  }
+  .third-form .container .item {
+    margin-top: 206px;
+  }
+  .third-form .container textarea {
+    width: 100%;
+  }
+}
